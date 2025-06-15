@@ -1,47 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charity Water Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>charity: water</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #000;
+    }
+
+    .container {
+      display: flex;
+      height: 100vh;
+    }
+
+    .left-panel {
+      width: 20%;
+      background-color: #bc6c38;
+      color: #000;
+      padding: 40px 20px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .branding {
+      font-family: Georgia, serif;
+      font-size: 1.5em;
+      font-weight: bold;
+      color: #fff;
+      background: #f6c12c;
+      display: inline-block;
+      padding: 5px 10px;
+      border-radius: 5px;
+      margin-bottom: 30px;
+
+    }
+
+    .tagline {
+      font-size: 3em;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .subtext {
+      font-size: 2em;
+      line-height: 1.6;
+      margin-bottom: 40px;
+    }
+    .right-panel {
+      width: 70%;
+      position: relative;
+      background-image: url ('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .nav {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      display: flex;
+      gap: 30px;
+      font-weight: bold;
+      color: #f6c12c;
+      font-size: 1.2em;
+    }
+  </style>
 </head>
 <body>
-    <!-- Hero Section: This is the main banner at the top of the page -->
-    <section class="hero">
-        <!-- Main headline -->
-        <h1>Clean Water for Everyone</h1>
-        <!-- Subheadline -->
-        <p>Join us in bringing safe, clean water to communities in need.</p>
-    </section>
-
-    <!-- Story Section: This tells the story of the nonprofit -->
-    <section class="story">
-        <h2>Our Story</h2>
-        <p>
-         
-    </section>
-
-    <!-- Real-World Impact Story Section -->
-    <section class="impact-story">
-        <!-- Section headline -->
-        <h2>Real Impact: Meet Amina</h2>
-        <!-- Container for image and text -->
-        <div class="impact-content">
-            <!-- Impact image -->
-            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Amina smiling with clean water" class="impact-image">
-            <!-- Impact story text -->
-            <p>
-                Amina used to walk miles every day to collect water for her family. Thanks to your support, her village now has a clean water well. Amina can go to school and her family is healthier and happier.
-            </p>
+  <div class="container">
+    <div class="left-panel">
+      <div>
+        <div class="branding">charity: water</div>
+        <div class="tagline">Change Isn’t just a Hashtag. It’s Clean Water!</div>
+        <div class="subtext">
+          Join a global movement tackling the water crisis with transparency. Know exactly where your donation goes and who it helps…
         </div>
-    </section>
+      </div>
+    </div>
+    <div class="right-panel">
+      <div class="nav">
+        <div>Home</div>
+        <div>Services</div>
+        <div>About Us</div>
+        <div>Contact</div>
+      </div>
+    </div>
+         </div>
 
-    <!-- Call-to-Action Section: This encourages visitors to take action -->
-    <section class="call-to-action">
-        <h2>Make a Difference</h2>
-        <p>Your support can help save lives. Every donation brings us closer to a world with clean water for all.</p>
-        <a href="#" class="donate-button">Donate Now</a>
-    </section>
+<div class="footer" style="text-align: center; padding: 20px; background-color: #f6c12c; color: #000;">
+  <p>&copy; 2023 charity: water. All rights reserved.</p>
+  </div>
+</body>
+</html>
 </body>
 </html>
